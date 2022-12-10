@@ -11,7 +11,6 @@ import (
 var Log *logger.Logger
 
 var Feature = features.Feature{
-	Help: "A help hasn't been written for voice yet!",
 	Name: "voice",
 	Cmds: []*cmds.Cmd{
 		cmds.NewCmd("voice", "For more direct control of voice channels", nil).AddSubCmds(
